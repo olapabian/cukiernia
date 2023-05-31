@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cukiernia</title>
+    <link rel="stylesheet" type="text/css"href="style.css">
+    <meta name="author" content="Aleksandra Pabian">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="skrypty.js"></script>
+</head>
+<body>
+    <header>
+        <img src="photos/logo.png" alt="logo" id="logo1">
+        <h1>CUKIERNIA</h1>
+        <img src="photos/logo.png" alt="logo" id="logo2">
+    </header>
+    <nav>
+        <div id="pasek">
+        <a href="#" class="active">HOME</a>
+        <a href="menu.html">MENU</a>
+        <a href="zamow.html">ZAMÓW</a>
+        <a href="kariera.html"> KARIERA</a>
+        <a href="kontakt.html">KONTAKT</a>
+        </div>
+    </nav>
+    <div id="przerwa"></div>
+    <main>
+        <article>
+            <h2>ZAMÓW TORT</h2>
+            <div>
+                <button class="button1" onclick="lewo1();">&#8678;</button>
+                <img src="photos/tort1.jpg" alt="" id="fota1">
+                <button class="button2" onclick="prawo1();">&#8680;</button> 
+            </div>
+        </article>
+        <article>
+            <h2>SPRÓBUJ RĘCZNIE ROBIONYCH CUKIERKÓW</h2>
+            <div>
+                <button class="button1" onclick="lewo2();">&#8678;</button>
+                <img src="photos/cukierki.jpg" alt="" id="fota2">
+                <button class="button2" onclick="prawo2();">&#8680;</button> 
+            </div>
+        </article>
+    </main>
+    <footer>
+        <p>Stopka &copy;2022</p>
+    </footer>
+</body>
+</html>

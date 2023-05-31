@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cukiernia</title>
+    <link rel="stylesheet" type="text/css"href="style.css">
+    <meta name="author" content="Aleksandra Pabian">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="skrypty.js"></script>
+</head>
+<body>
+    <header>
+        <img src="photos/logo.png" alt="logo" id="logo1">
+        <h1>CUKIERNIA</h1>
+        <img src="photos/logo.png" alt="logo" id="logo2">
+    </header>
+    <nav>
+        <div id="pasek">
+        <a href="index.html" >HOME</a>
+        <a href="menu.html">MENU</a>
+        <a href="#" class="active">ZAMÓW</a>
+        <a href="kariera.html">KARIERA</a>
+        <a href="kontakt.html">KONTAKT</a>
+        </div>
+    </nav>
+    <div id="przerwa"></div>
+    <main>
+        <h2>FORMULARZ ZAMÓWIENIA TORTU</h2>
+        <form>
+            <fieldset>
+                <legend>Dane personalne</legend>
+                <p><label>Imię <input type="text"></label></p> 
+                <p><label>Nazwisko <input type="text"></label></p>
+                <p><label>Nr telefonu:<input type="text"></label</p>
+            </fieldset>
+        </form>
+        <p>Rodzaj tortu:</p>
+        <select class="formy">
+            <option selected>TORT URODZINOWY</option>
+            <option>TORT NA KOMUNIE</option>
+            <option>TORT ŚLUBNY</option>
+            <option>INNY</option>
+        </select>
+        <p>Uwagi:</p>
+        <p><textarea cols="30" rows="10">Uwagi...</textarea></p>
+        <p><button id="guzik" class="formy">Wyślij - jQuery</button></p>
+    </main>
+    <div id="przerwa2"></div>
+    <footer>
+        <p>Stopka &copy;2022</p>
+    </footer>
+</body>
+</html>

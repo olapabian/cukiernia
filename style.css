@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    margin:0;
+    padding: 0;
+    height:100%;
+}
+body{
+    background-color:rgb(94, 67, 67);
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    min-height: 100%;
+    position:relative;
+}
+header{
+    background-color:rgb(38, 29, 29);
+    background-repeat: no-repeat;
+    padding:2rem;
+    border-radius: 2rem;
+    display: flex;
+}
+.active{
+    background-color:rgb(94, 67, 67);
+}
+#logo1{
+    height: 13rem;
+    margin-right: 10rem;
+}
+#logo2{
+    height: 13rem;
+    margin-left: 10rem;
+}
+h1{
+    font-size: 4rem;
+    color:rgb(155, 116, 89);
+}
+p{
+    font-size: 1.5rem;
+    margin-left: 2rem;
+}
+.formy{
+    margin-left: 2rem;
+}
+nav{
+    border-radius: 0.5rem;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+nav a{
+    background-color:rgb(155, 116, 89);
+    border-style:double;
+    text-decoration: none;
+    padding:2rem;
+    border-color: rgb(146, 86, 43);
+    color:rgb(38, 29, 29);
+    font-size: 2rem;
+}
+#pasek{
+    display:inline-flex;
+    justify-content:center;
+    width: 100%;
+    margin: 0rem;
+}
+#przerwa{
+    border-style:dotted;
+}
+#przerwa2{
+    height: 3rem;
+}
+main{
+    height: 100%;
+}
+article{
+    margin:0rem;
+}
+h2{
+    text-align: center;
+    color: cornflowerblue;
+    padding: 2rem;
+    margin:0;
+    font-size: 2.5rem;
+}
+main div{
+    height: 20rem;
+    background-image: url("photos/papier.jpg");
+    display:flex;
+    border-radius: 2rem;
+}
+#fota1{
+    height: 100%;
+}
+#fota2{
+    height: 100%;
+}
+.button1{
+    padding: 1rem;
+    margin-left: 20rem;
+}
+.button2{
+    padding: 1rem;
+    margin-right: 20rem;
+}
+.button3{
+    height: 3rem;
+    width: 100%;
+}
+li{
+    font-size: 2rem;
+}
+#guzik{
+    margin-top:0;
+    padding: 0.2rem;
+    margin-bottom: 3rem;
+}
+.obok{
+    position: absolute;
+    width: 100%;
+}
+.filmik{
+    margin-top: 2rem;
+}
+footer{
+    background-color: grey;
+    text-align: center;
+    width: 100%;
+    clear: both;
+    position: fixed;
+    bottom: 0;
+}
